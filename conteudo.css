@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.linha-vertical{
+    width: 1px;
+    height: 100%;
+    background-color: #DBDBDB ;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFf;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height:54px ;
+    border-bottom:1px solid #DBDBDB;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 1;
+    background-color:  #FFFFFf;
+}
+.menu .logo-instagram{
+    left: 221px;
+    position:absolute;
+    font-size: 22px;
+}
+.menu .linha-vertical{
+    left: 247px;
+    height: 75%;
+    position:absolute;
+}
+.menu .logo{
+    left: 258px;
+    position:absolute;
+}
+.menu .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400 ;
+    font-style: normal;
+    font-size: 12px;
+    color: #979797;
+    line-height: 14px;
+    position:relative;
+    width: 215px;
+    height: 28px;
+    left: 575px;
+    border: 1px solid  #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.menu .paper-plane-outline{
+    left: 1004.6px;
+    position:absolute;
+    font-size: 22px;
+
+}
+.menu .compass-outline{
+    left: 1046.75px;   
+    position:absolute;
+    font-size: 22px;
+}
+.menu .heart-outline{
+    left: 1088.75px;
+    position:absolute;
+    font-size: 22px;
+}
+.menu .person-outline{
+    left: 1135.21px;
+    position:absolute;
+    font-size: 22px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1336px;
+    top: 54px;
+    position: absolute;
+}
+.scroll {
+    width: 614px;
+    left: 215px;
+    height: 100%;
+    position: relative;
+}
+.story{
+    margin-top: 34px;
+    margin-bottom: 24px;
+    width:614px ;
+    height: 118px;
+    position: absolute;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex-direction: row;
+    overflow: hidden;
+}
+.img-story{
+    width:614px ;
+    margin-left: 18px;
+    margin-top: 18px; 
+    display: flex;
+    flex-direction: row; 
+}
+.imagem1{
+    clip-path: circle(33px at 33px 33px);
+    margin-right: 14px;
+ 
+}
+.img-perfil-story{
+    top:23px;
+    left:23px;
+    display: flex;
+    flex-direction: row ;
+    position:absolute;
+    
+}
+.foto-perfil-story{
+    margin-right: 24px;
+    clip-path: circle(28px at 28px 28px);
+}
+.container-nome-stroy{
+    position: absolute;
+    top:85px;
+    z-index: 1;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    left: 23px;
+    overflow: hidden;
+    column-gap: 21px;
+    box-sizing:content-box
+    
+}
+.nome-story{
+    box-sizing: border-box;
+    overflow: hidden;
+    width:58px;
+    height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.06px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seta{
+    position:absolute;
+    top: 46px;
+    margin-left: 579px;
+}
+.chevron-forward-circle{
+    color:  #FFFFFF;
+    width: 26px;
+    height: 26px;
+}
+.seta:hover {
+    cursor: pointer;
+    filter: brightness(150%);
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    margin-top:  176px; 
+    position: inherit;
+}
+ .publicaçao{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 749px;
+    margin-bottom: 60px;
+    position: relative;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+.perfilfoto{
+    height: 60px;
+    width: 614px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.foto{
+    padding-top: 60px; 
+}
+.comentario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12.06px ;
+    margin-left: 17px;
+}
+.pcomentario {
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-style: normal;
+    line-height: 16.41px;
+    margin-left: 5px;
+    font-weight: 300;
+}
+.bold{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-style: normal;
+    line-height: 16.41px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.nomeperfil {
+    margin-left:15px;
+    padding-top: 6px;
+    width: 109px;
+    height: 21px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-style: normal;
+    line-height: 16.41px;
+    font-weight: medium;
+    margin-left: 5px;
+} 
+.ellipsis-horizontal-outline {
+    margin-top: 11px;
+   margin-left: 408px;
+}
+.icones .heart-outline{
+    margin-left: 17.75px;
+    margin-top: 13.44px;
+    font-size: 16px;
+}
+.icones .paper-plane-outline{
+    margin-left: 17.81px;
+    margin-top: 13.44px;
+    font-size: 16px;   
+}
+.icones .chatbubble-outline{
+    margin-left: 18.2px;
+    font-size: 16px;
+}
+.icones .bookmark-outline{
+    margin-left: 476.06px;
+    margin-top: 13.44px;
+    font-size: 16px;
+}
+.lateral{
+    top: 57px;
+    left: 858px;
+    width: 508px;
+    height: 100%;
+    position: fixed;
+
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    width: 253px;
+    height: 56PX;
+    margin-top: 57px;
+    margin-left: 29px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.nome-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 182px;
+    height: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-style: normal;
+    line-height: 16.41px;
+    font-weight: medium;
+    color:#262626;
+}
+.nickname{
+    width: 182px;
+    height: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-style: normal;
+    line-height: 16.4px;
+    font-weight: lighter;
+    color: #979797; 
+}
+.sugestoes{
+    height: 303px;
+    width: 253px;
+    margin-left: 29px;
+    position: relative;
+}
+.titulo-sugestao{
+    top: 191px;
+    margin-left: 29px;
+    display: flex;
+    justify-content: column;
+    margin-bottom: 17px;
+}
+.titulo{
+    width: 117px;
+    height: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 500;
+    color: #8E8E8E ;
+}
+.botao-ver{
+    margin-left:120px ;
+    width: 55px;
+    height: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 500;
+    color: #262626;
+}
+.foto-sugestao{
+    clip-path: circle(16px at 16px 16px);
+    margin-bottom: 16px;
+}
+.perfil-sugestao{
+    display: flex;
+    flex-direction: column;
+}
+.texto-sugestao{
+    left: 43px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px ;
+    font-style: normal;
+    line-height: 16.41px;
+    font-weight: 500;
+    color: #262626;
+}
+.botao-seguir{
+    margin-top: 9px;
+    position: absolute;
+    left:256px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 500;
+    color: #139EF2;
+}
+.status-sugestao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+.sobre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 400;
+    color: #8E8E8E;
+    width: 300px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+.copyright{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+    line-height: 14.06px;
+    font-weight: 400;
+    color: #8E8E8E;
+    width: 300px;
+    height: 14px;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.barra-bottom{
+    display: none;
+    flex-direction: row;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 74px;  
+}
+
+@media (max-width: 935px) {
+    .lateral{
+        display: none;
+    }
+    .menu{
+        width: 935px;
+    }
+    .menu .logo-instagram{
+        left: 20px;
+    }
+    .menu .linha-vertical{
+        left: 52px;
+        height: 75%;
+    }
+    .menu .logo{
+        left: 63px;
+    }
+    .menu .botao{
+        left: 343px;
+    }
+    .menu .paper-plane-outline{
+        left: 733px;
+    }
+    .menu .compass-outline{
+        left: 775.75px;   
+    }
+    .menu .heart-outline{
+        left: 817px;
+    }
+    .menu .person-outline{
+        left: 866.21px;
+    }
+    .container {
+        width: 900px;     
+    }
+    .scroll{
+        left: 144px;
+    }
+}
+@media (max-width: 614px) {
+    .body{
+        width: 100%px;
+        box-sizing: border-box;
+    }
+ .menu{
+        width: 614px;
+        border-bottom: 1px solid #DBDBDB;
+        position: absolute;
+    }
+    .menu .logo-instagram{
+        left: 21.37px;
+    }
+    .menu .linha-vertical{
+       display: none;
+    }
+    .menu .logo{
+        left: 255px;
+    }
+    .menu .botao{
+        display: none;
+    }
+    .menu .paper-plane-outline{
+        left: 569.06px;
+    }
+    .menu .compass-outline{
+        display: none; 
+    }
+    .menu .heart-outline{
+        display: none;
+    }
+    .menu .person-outline{
+        display: none;
+    }
+    .container {
+        width: 100%;     
+    }
+    .story{
+        border: 0;
+        border-top: 1px solid #DBDBDB;
+        border-bottom: 1px solid #DBDBDB;
+        box-sizing: border-box;
+    }
+    .scroll{
+        left: 0px;
+        width: 614px;
+    }
+    .publicaçao{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .icones .bookmark-outline{
+        margin-left: 477.06px;
+    }
+    .barra-bottom{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 612px;
+        height: 54px;  
+        background-color: #FFFFFF;
+        border: 1px #DBDBDB solid;
+        }
+    .home{
+        margin-left: 19.69px;
+        margin-top: 17px;
+    }
+    .search{
+        margin-left: 118.5px;
+        margin-top: 17px;
+    }
+    .add-circle-outline{
+        margin-left: 118.5px;
+        margin-top: 17px;
+    }
+    .barra-bottom .heart-outline{
+        margin-left: 118.5px;
+        margin-top: 17px;
+    }
+    .barra-bottom .person-outline{
+        margin-left: 118.5px;
+        margin-top: 17px;
+    }
+    }
